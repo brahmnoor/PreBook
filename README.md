@@ -14,16 +14,16 @@ Important Note - This is not ready for production, because it has multiple probl
 3. Handling simuntaneous transactions (so a way to put a seat on a sort of hold for the duration of buying).
 4. Adding email verification.
 
-#### How to set it up
+### How to set it up
 1. Edit the db.php files with the details of your MySQL database.
 2. Use the backup.sql file to import the backed up database to your MySQL to make sure that the database schema is similar.
 3. Profit! :)
 
-#### Try Me?
+### Try Me?
 1. Of course. You can [try me out](https://i.cs.hku.hk/~bschawla/project1/index.html "try me out").
 2. Also, you can see the screenshots below.
 
-#### Screenshots
+### Screenshots
 ![screenshot](https://i.imgur.com/9JJxaFu.png "screenshot")
 
 ![screenshot](https://i.imgur.com/7C9CIc0.png "screenshot")
