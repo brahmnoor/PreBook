@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Create an Account | PreBook</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="img/logo.png">
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="img/logo.png"> <h1> PreBook</h1><span><i>Cheap, Reliable, Instant</i></span>
+      </div>
+    </nav>
+
+    <main>
+      <div class="bar">
+        <h2>Welcome to PreBook (Sign Up)</h2>
+        <span class="aside"><i>Fill out the information below to sign up for an account, and start booking tickets to your favorite movies</i></span>
+      </div>
+      <form method="post" action="create.php" id="createform" onsubmit="return validateForm()">
+        <span>Username</span>
+        <input type="text" name="desiredusername" placeholder="Desired Username" id="username" class="form-input">
+
+        <span>Password</span>
+        <input type="password" name="desiredpassword" placeholder="Desired Password" id="password" class="form-input">
+
+        <button type="submit" name="submit" id="submit" class="form-button">Sign Up</button>
+
+        <a href="index.html">
+          <button type="button" name="back" class="form-button aside-button">Back</button>
+        </a>
+
+
+
+      </form>
+    </main>
+    <script type="text/javascript">
+        var form = document.getElementById('createform');
+        var username;
+        var password;
+        var button = document.getElementById('submit');
+        var reOneNum = new RegExp("/\d/");
+        var reOneAl = new RegExp("/[A-Z]/i");
+        var reFinal = new RegExp("([A-Za-z]+[0-9]|[0-9]+[A-Za-z])[A-Za-z0-9]*");
+        var reAlnum = new RegExp("^[a-zA-Z0-9]*$");
+        function validateForm() {
+          username = document.getElementById('username').value;
+          password = document.getElementById('password').value;
+          if (username.length == 0 || password.length == 0) {
+            alert("Please do no leave the fields empty");
+            return false;
+          }
+          else if (username.length < 3) {
+            alert("Username must be longer than 3 characters");
+            return false;
+          }
+          else if (!reAlnum.test(username)) {
+            alert("Username can only consist of characters and numbers");
+            return false;
+          }
+          else if (password.length < 6 || password.length > 15 || !reFinal.test(password) ) {
+            alert("The length of the password must be between 6 to 15 characters and it must consist of only alphanumerical characters with at least one alphabet and one numerical character");
+            return false;
+          }
+        }
+    </script>
+  </body>
+</html>

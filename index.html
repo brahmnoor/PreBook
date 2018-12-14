@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PreBook | Cheap, Reliable, Instant!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="img/logo.png">
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="img/logo.png"> <h1> PreBook</h1><span><i>Cheap, Reliable, Instant</i></span>
+      </div>
+    </nav>
+    <main>
+      <div class="bar">
+        <h2>Login</h2>
+        <span class="aside"><i>...if you're already a member.</i></span>
+      </div>
+      <form method="post" action="verifyLogin.php" id="loginform">
+        <input type="text" name="username" placeholder="Username" required class="form-input">
+        <input type="password" name="password" placeholder="Password" required class="form-input">
+        <button type="submit" name="submit" id="submit" class="form-button">Submit</button>
+        <a href="createaccount.html">
+          <button type="button" name="create" class="form-button aside-button">Create an account</button>
+        </a>
+      </form>
+    </main>
+    <script type="text/javascript">
+        var form = document.getElementById('loginform');
+        var button = document.getElementById('submit');
+        button.addEventListener("click", function() {
+          if (!form.checkValidity()) {
+            alert("Please do not leave the fields empty.");
+          }
+        });
+    </script>
+  </body>
+</html>
