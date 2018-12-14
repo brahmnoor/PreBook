@@ -1,4 +1,5 @@
 ## PreBook
+![screenshot](https://cdn.pbrd.co/images/HRHJWWp.gif "screenshot")
 A movie booking website made in HTML, PHP, MySQL and occasional snippets of Javascript. Key features -
 1. User login & registeration - using PHP sessions and a MySQL database.
 2. Movie booking - with seat selection, hall selection, time selection.
@@ -27,5 +28,3 @@ Important Note - This is not ready for production, because it has multiple probl
 ![screenshot](https://i.imgur.com/9JJxaFu.png "screenshot")
 
 ![screenshot](https://i.imgur.com/7C9CIc0.png "screenshot")
-
-![screenshot](https://cdn.pbrd.co/images/HRHJWWp.gif "screenshot")
