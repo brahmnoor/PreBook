@@ -5,7 +5,7 @@ A movie booking website made in HTML, PHP, MySQL and occasional snippets of Java
 3. Commenting - To post reviews of a specific movie.
 4. User buy history - to quickly checkout the history of tickets purchased by a user.
 
-**Important Note - ** This is not ready for production, because it has multiple problems arising in real life (see future updates should include section). It was built as a project, and should be appropriate as a starting point.
+Important Note - This is not ready for production, because it has multiple problems arising in real life (see future updates should include section). It was built as a project, and should be appropriate as a starting point.
 
 ### Future Updates should Include
 *Reasons why you shouldn't put this up on a production level yet.*
