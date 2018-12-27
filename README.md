@@ -1,3 +1,5 @@
+*Note* - A MEAN stack version of this exists on [this repo](https://github.com/brahmnoor/PreBookJS)! So choose your pick.
+
 ## PreBook
 ![screenshot](https://cdn.pbrd.co/images/HRHJWWp.gif "screenshot")
 A movie booking website made in HTML, PHP, MySQL and occasional snippets of Javascript. Key features -
