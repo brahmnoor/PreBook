@@ -1,4 +1,4 @@
-*Note* - A MEAN stack version of this exists on [this repo](https://github.com/brahmnoor/PreBookJS)! So choose your pick.
+*Note* - A MEAN stack version of this exists on [this repo](https://github.com/brahmnoor/PreBookJS)! So take your pick.
 
 ## PreBook
 ![screenshot](https://cdn.pbrd.co/images/HRHJWWp.gif "screenshot")
