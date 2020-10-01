@@ -22,7 +22,7 @@ Important Note - This is not ready for production, because it has multiple probl
 2. Use the backup.sql file to import the backed up database to your MySQL to make sure that the database schema is similar.
 3. Profit! :)
 
-### Try Me?
+### Want to see a Demo?
 1. Of course. You can [try me out](https://i.cs.hku.hk/~bschawla/project1/index.html "try me out").
 2. Also, you can see the screenshots below.
 
